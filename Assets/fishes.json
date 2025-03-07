@@ -1,0 +1,305 @@
+{
+	"common" : [
+		{
+			"id" : 0,
+			"name" : "Bacalao",
+			"xp_given": 10
+		},
+		{
+			"id" : 1,
+			"name": "Salmon",
+			"xp_given": 10
+		},
+		{
+			"id" : 6,
+			"name": "Amarguillo",
+			"xp_given": 12
+		},
+		{
+			"id" : 7,
+			"name": "Cacho",
+			"xp_given": 8
+		},
+		{
+			"id" : 8,
+			"name": "Carpin",
+			"xp_given": 10
+		},
+		{
+			"id" : 9,
+			"name": "Leucisco",
+			"xp_given": 11
+		},
+		{
+			"id" : 10,
+			"name": "Carpa",
+			"xp_given": 11
+		},
+		{
+			"id" : 14,
+			"name": "Killi",
+			"xp_given": 6
+		},
+		{
+			"id" : 15,
+			"name": "Cangrejon de Río",
+			"xp_given": 13
+		},
+		{
+			"id" : 16,
+			"name": "Tortuga",
+			"xp_given": 18
+		},
+		{
+			"id" : 18,
+			"name": "Locha",
+			"xp_given": 10
+		},
+		{
+			"id" : 19,
+			"name": "Siluro",
+			"xp_given": 10
+		},
+		{
+			"id" : 20,
+			"name": "Anguila",
+			"xp_given": 10
+		},
+		{
+			"id" : 22,
+			"name": "Pez Sol",
+			"xp_given": 10
+		},
+		{
+			"id" : 23,
+			"name": "Perca",
+			"xp_given": 10
+		},
+		{
+			"id" : 25,
+			"name": "Ayu",
+			"xp_given": 10
+		},
+		{
+			"id" : 26,
+			"name": "Salmon japones",
+			"xp_given": 12
+		},
+		{
+			"id" : 27,
+			"name": "Trucha",
+			"xp_given": 19
+		},
+		{
+			"id" : 37,
+			"name": "Caballito de mar",
+			"xp_given": 18
+		},
+		{
+			"id" : 43,
+			"name": "Jurel",
+			"xp_given": 11
+		},
+		{
+			"id" : 44,
+			"name": "Gallo",
+			"xp_given": 9
+		},
+		{
+			"id" : 45,
+			"name": "Rodaballo",
+			"xp_given": 13
+		},
+		{
+			"id" : 48,
+			"name": "Calamar",
+			"xp_given": 11
+		}
+	],
+	"rare" : [
+		{
+			"id" : 2,
+			"name": "Pez Globo",
+			"xp_given": 20
+		},
+		{
+			"id" : 3,
+			"name": "Koi",
+			"xp_given": 20
+		},
+		{
+			"id" : 12,
+			"name": "Pez Dorado",
+			"xp_given": 19
+		},
+		{
+			"id" : 13,
+			"name": "Pez telescopio",
+			"xp_given": 23
+		},
+		{
+			"id" : 17,
+			"name": "Gobio de río",
+			"xp_given": 21
+		},
+		{
+			"id" : 21,
+			"name": "Cabeza de serpiente",
+			"xp_given": 27
+		},
+		{
+			"id" : 24,
+			"name": "Lucio",
+			"xp_given": 24
+		},
+		{
+			"id" : 28,
+			"name": "Pez arcoiris",
+			"xp_given": 23
+		},
+		{
+			"id" :30,
+			"name": "Pez doctor",
+			"xp_given": 21
+		},
+		{
+			"id" : 31,
+			"name": "Pez ángel",
+			"xp_given": 29
+		},
+		{
+			"id" : 32,
+			"name": "Tetra neón",
+			"xp_given": 27
+		},
+		{
+			"id" : 33,
+			"name": "Piraña",
+			"xp_given": 33
+		},
+		{
+			"id" : 34,
+			"name": "Arowana",
+			"xp_given": 28
+		},
+		{
+			"id" : 38,
+			"name": "Pez cirujano",
+			"xp_given": 27
+		},
+		{
+			"id" : 39,
+			"name": "Pez mariposa",
+			"xp_given": 28
+		},
+		{
+			"id" : 47,
+			"name": "Morena",
+			"xp_given": 22
+		},
+		{
+			"id" : 48,
+			"name": "Pez balon",
+			"xp_given": 24
+		},
+		{
+			"id" : 49,
+			"name": "Atún",
+			"xp_given": 29
+		},
+		{
+			"id" : 52,
+			"name": "Raya",
+			"xp_given": 22
+		}
+	],
+	"very_rare" : [
+		{
+			"id" : 4,
+			"name": "Pez Tropical",
+			"xp_given": 30
+		},
+		{
+			"id" : 5,
+			"name": "Ajolote",
+			"xp_given": 30
+		},
+		{
+			"id" : 29,
+			"name": "Taimen",
+			"xp_given": 33
+		},
+		{
+			"id" : 35,
+			"name": "Dorado",
+			"xp_given": 38
+		},
+		{
+			"id" : 36,
+			"name": "Pirarucú",
+			"xp_given": 32
+		},
+		{
+			"id" : 40,
+			"name": "Pez napoleón",
+			"xp_given": 38
+		},
+		{
+			"id" : 41,
+			"name": "Pez león",
+			"xp_given": 34
+		},
+		{
+			"id" : 42,
+			"name": "Pez erizo",
+			"xp_given": 33
+		},
+		{
+			"id" : 53,
+			"name": "Pez luna",
+			"xp_given": 37
+		},
+		{
+			"id" : 56,
+			"name": "Pez sierra",
+			"xp_given": 33
+		},
+		{
+			"id" : 58,
+			"name": "Pez remo",
+			"xp_given": 32
+		},
+		{
+			"id" : 59,
+			"name": "Celacanto",
+			"xp_given": 39
+		}
+	],
+	"legendary": [
+		{
+			"id" : 50,
+			"name": "Pez espada",
+			"xp_given": 47
+		},
+		{
+			"id" : 51,
+			"name": "Jurel gigante",
+			"xp_given": 49
+		},
+		{
+			"id" : 54,
+			"name": "Pez martillo",
+			"xp_given": 54
+		},
+		{
+			"id" : 55,
+			"name": "Tiburón",
+			"xp_given": 50
+		},
+		{
+			"id" : 57,
+			"name": "Tiburón ballena",
+			"xp_given": 51
+		}
+	]
+}
