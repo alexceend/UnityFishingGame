@@ -88,11 +88,6 @@ public class FishManager : MonoBehaviour
             ResetFishing();
         }
 
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            forceFish();
-        }
-
         if(fishShadow != null)
         {
             Debug.Log(IsFishInRange());
@@ -190,40 +185,6 @@ public class FishManager : MonoBehaviour
             }
         }
         isFishingCoroutineRunning = false;
-    }
-
-    public void forceFish()
-    {
-        int rarity = Random.Range(0, 4); //Rehacer probabilidad pero mas tarde k me da toda la pereza
-        Fish selectedFish = GetRandomFishByRarity(rarity);
-
-        Debug.Log("Caught: " + selectedFish.name);
-
-        SC_Item item = FindItemByID(selectedFish.id);
-        if (item != null)
-        {
-            inventorySystem.AddItem(item);
-        }
-        else
-        {
-            Debug.LogError("No SC_Item found for fish ID: " + selectedFish.id);
-        }
-
-        gameManagerScript.changeFishingState();
-
-        banner = Instantiate(bannerPrefab, new Vector3(0, 0, 0), new Quaternion());
-        AnimationTween animationTween = banner.GetComponent<AnimationTween>();
-
-        if (animationTween != null)
-        {
-            // Asignar el sprite del pez capturado
-            animationTween.sprite = item.itemIcon;
-        }
-
-        if (!encyclopediaManager.IsFishCaught(selectedFish.id))
-        {
-            encyclopediaManager.MarkFishAsCaught(selectedFish.id);
-        }
     }
 
     void CatchFish()
